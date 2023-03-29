@@ -17,8 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 3%;
+    position: fixed;
+    top: 8%;
     left: 50%;
     transform: translate(-142.5%, -170%);
     width: max-content;
@@ -158,7 +158,7 @@
 
 
             &:first-child{
-                top: -72px;
+                top: -60px;
             }
         }
 

@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 3%;
+  position: fixed;
+  top: 8%;
   left: 50%;
   transform: translate(-142.5%, -170%);
   width: max-content;
@@ -829,7 +829,7 @@
   transform: translateX(-50%);
 }
 #announcement-banner .rightPhotos p:first-child, #announcement-banner .leftText p:first-child {
-  top: -72px;
+  top: -60px;
 }
 #announcement-banner .rightPhotos.anime p, #announcement-banner .rightPhotos.anime img, #announcement-banner .leftText.anime p, #announcement-banner .leftText.anime img {
   animation: 1s objectsAnime forwards;

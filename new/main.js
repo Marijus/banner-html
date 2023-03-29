@@ -1,9 +1,10 @@
 "use strict";
 
-const firstValue = [5, 10, 15, 20, 30, 40];
+const firstValue = [5, 10, 15, 20, 30, 41];
 const secondValue = [5, 2, 2, 6, 0, 1];
 
 function firstAnime(speeds, results) {
+    console.log(results);
     if (document.querySelector(`.rightPhotos`).classList.contains('animeReverse')) {
         document.querySelector(`.rightPhotos`).classList.remove('animeReverse');
     }
